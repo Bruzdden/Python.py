@@ -1,0 +1,10 @@
+from math import sqrt
+ax = int(input(""))
+ay = int(input(""))
+bx = int(input(""))
+by = int(input(""))
+a = abs(ax - bx)
+b = abs(ay - by)
+NUM = (a*a) + (b*b)
+c = sqrt(NUM)
+print(c)
