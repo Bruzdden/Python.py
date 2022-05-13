@@ -2,11 +2,7 @@ import mysql.connector as db
 from mysql.connector import Error
 
 
-connection = db.connect(
-    host='localhost', 
-    database='comics', 
-    user='root', 
-    password='root')
+connection = db.connect(host='localhost', database='comics', user='root', password='root')
    
 db_Info = connection.get_server_info()
 print("Connected to MySQL Server version ", db_Info)
